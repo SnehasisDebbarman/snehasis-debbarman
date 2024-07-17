@@ -1,12 +1,9 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import img from "./assets/photo.jpg"
 import { GoHome } from "react-icons/go";
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className='bg-white h-screen w-screen flex overflow-hidden'>
